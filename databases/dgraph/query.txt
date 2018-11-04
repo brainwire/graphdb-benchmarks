@@ -1,0 +1,14 @@
+Finding movies and genre of movies directed by "Steven Spielberg"
+POST : http://127.0.0.1:8080/query
+{
+    me(_xid_: m.06pj8) {
+        type.object.name.en
+        film.director.film  {
+        film.film.genre {
+            type.object.name.en
+        }
+        type.object.name.en
+        film.film.initial_release_date
+        }
+    }
+}

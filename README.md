@@ -4,6 +4,13 @@ Benchmark tests for various graph databases based on [ankurayadav's work](https:
 **Note :** Please ensure you have [Git LFS](https://git-lfs.github.com/) installed, before you clone this repository.
 **Note :** These results are a bit outdated, I am working on new results.
 
+# Installation
+## DGraph 
+Simply copy and paste their command line installer 
+```
+curl https://get.dgraph.io -sSf | bash
+```
+
 ## Loading
 #### Loading 30kmoviedata dataset
 
