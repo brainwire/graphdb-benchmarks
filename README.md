@@ -2,6 +2,7 @@
 Benchmark tests for various graph databases based on [ankurayadav's work](https://github.com/ankurayadav/graphdb-benchmarks)
 
 **Note :** Please ensure you have [Git LFS](https://git-lfs.github.com/) installed, before you clone this repository.
+
 **Note :** These results are a bit outdated, I am working on new results.
 
 # Installation
