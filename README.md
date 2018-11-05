@@ -3,33 +3,35 @@ Benchmark tests for various graph databases based on [ankurayadav's work](https:
 
 **Note :** Please ensure you have [Git LFS](https://git-lfs.github.com/) installed, before you clone this repository.
 
-**Note :** These results are a bit outdated, I am working on new results.
+# Specs
+- Processor : i7 8750H
+- RAM : 16G
+- Hard drive : 512GB NVMe SSD
+
+# Tested versions
+- Cayley 0.7.4
+- DGraph 1.0.9
 
 # Installation
+
 ## DGraph 
 Simply copy and paste their command line installer 
 ```
 curl https://get.dgraph.io -sSf | bash
 ```
 
-## Loading
-#### Loading 30kmoviedata dataset
-
-| DGraph        | Cayley        |
-| ------------- |:-------------:|
-| 4.745s        | 30.035s       |
-
+# Loading
 
 #### Loading 21million.rdf.gz dataset
 
 | DGraph        | Cayley        |
 | ------------- |:-------------:|
-| 879.913s      | 8527.427s     |
+| 138s          | 1438s         |
 
-## Querying
+# Querying
 
-#### Query to find all movies and their genre which are directed by director "Steven Spielberg".
+#### Criteria 1
 
 | DGraph        | Cayley        |
 | ------------- |:-------------:|
-| 2.067s        | 1.376s        |
+| ------        | ------        |

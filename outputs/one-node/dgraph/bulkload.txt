@@ -1,0 +1,154 @@
+2018/11/04 23:24:32 loader.go:77: Connecting to zero at localhost:5080
+2018/11/04 23:24:32 Replaying from value pointer: {Fid:0 Len:0 Offset:0}
+2018/11/04 23:24:32 Iterating file id: 0
+2018/11/04 23:24:32 Iteration took: 24.291µs
+processing file (1 out of 1): /home/iderr/workspace/graphdb-benchmarks/databases/dgraph/../../data/21million.rdf.gz
+MAP 01s rdf_count:331.0 err_count:0.000 rdf_speed:329.7/sec edge_count:662.0 edge_speed:659.3/sec
+MAP 02s rdf_count:795.0 err_count:0.000 rdf_speed:396.6/sec edge_count:1.590k edge_speed:793.2/sec
+MAP 03s rdf_count:2.115k err_count:0.000 rdf_speed:703.8/sec edge_count:4.230k edge_speed:1.408k/sec
+MAP 04s rdf_count:357.4k err_count:0.000 rdf_speed:89.23k/sec edge_count:714.8k edge_speed:178.5k/sec
+MAP 05s rdf_count:531.9k err_count:0.000 rdf_speed:106.2k/sec edge_count:1.064M edge_speed:212.4k/sec
+MAP 06s rdf_count:754.5k err_count:0.000 rdf_speed:125.6k/sec edge_count:1.509M edge_speed:251.1k/sec
+MAP 07s rdf_count:939.3k err_count:0.000 rdf_speed:134.0k/sec edge_count:1.879M edge_speed:268.0k/sec
+MAP 08s rdf_count:1.134M err_count:0.000 rdf_speed:141.6k/sec edge_count:2.268M edge_speed:283.1k/sec
+MAP 09s rdf_count:1.390M err_count:0.000 rdf_speed:154.3k/sec edge_count:2.780M edge_speed:308.6k/sec
+MAP 10s rdf_count:1.635M err_count:0.000 rdf_speed:163.4k/sec edge_count:3.271M edge_speed:326.8k/sec
+MAP 11s rdf_count:1.814M err_count:0.000 rdf_speed:164.8k/sec edge_count:3.628M edge_speed:329.5k/sec
+MAP 12s rdf_count:2.096M err_count:0.000 rdf_speed:174.5k/sec edge_count:4.193M edge_speed:349.1k/sec
+MAP 13s rdf_count:2.411M err_count:0.000 rdf_speed:185.3k/sec edge_count:4.823M edge_speed:370.7k/sec
+MAP 14s rdf_count:2.727M err_count:0.000 rdf_speed:194.6k/sec edge_count:5.454M edge_speed:389.2k/sec
+MAP 15s rdf_count:3.047M err_count:0.000 rdf_speed:203.0k/sec edge_count:6.095M edge_speed:406.0k/sec
+MAP 16s rdf_count:3.359M err_count:0.000 rdf_speed:209.8k/sec edge_count:6.717M edge_speed:419.5k/sec
+MAP 17s rdf_count:3.672M err_count:0.000 rdf_speed:215.8k/sec edge_count:7.343M edge_speed:431.7k/sec
+MAP 18s rdf_count:4.042M err_count:0.000 rdf_speed:224.4k/sec edge_count:8.083M edge_speed:448.8k/sec
+MAP 19s rdf_count:4.424M err_count:0.000 rdf_speed:232.7k/sec edge_count:8.849M edge_speed:465.4k/sec
+MAP 20s rdf_count:4.775M err_count:0.000 rdf_speed:238.6k/sec edge_count:9.550M edge_speed:477.2k/sec
+MAP 21s rdf_count:5.109M err_count:0.000 rdf_speed:243.1k/sec edge_count:10.22M edge_speed:486.2k/sec
+MAP 22s rdf_count:5.486M err_count:0.000 rdf_speed:249.2k/sec edge_count:10.97M edge_speed:498.4k/sec
+MAP 23s rdf_count:5.860M err_count:0.000 rdf_speed:254.6k/sec edge_count:11.72M edge_speed:509.2k/sec
+MAP 24s rdf_count:6.263M err_count:0.000 rdf_speed:260.8k/sec edge_count:12.53M edge_speed:521.5k/sec
+MAP 25s rdf_count:6.604M err_count:0.000 rdf_speed:264.0k/sec edge_count:13.21M edge_speed:527.9k/sec
+MAP 26s rdf_count:7.021M err_count:0.000 rdf_speed:269.9k/sec edge_count:14.04M edge_speed:539.7k/sec
+MAP 27s rdf_count:7.346M err_count:0.000 rdf_speed:271.9k/sec edge_count:14.69M edge_speed:543.8k/sec
+MAP 28s rdf_count:7.677M err_count:0.000 rdf_speed:274.0k/sec edge_count:15.35M edge_speed:548.0k/sec
+MAP 29s rdf_count:8.105M err_count:0.000 rdf_speed:279.3k/sec edge_count:16.21M edge_speed:558.6k/sec
+MAP 30s rdf_count:8.383M err_count:0.000 rdf_speed:279.2k/sec edge_count:16.77M edge_speed:558.5k/sec
+MAP 31s rdf_count:8.758M err_count:0.000 rdf_speed:282.3k/sec edge_count:17.52M edge_speed:564.7k/sec
+MAP 32s rdf_count:9.211M err_count:0.000 rdf_speed:287.7k/sec edge_count:18.42M edge_speed:575.3k/sec
+MAP 33s rdf_count:9.528M err_count:0.000 rdf_speed:288.6k/sec edge_count:19.06M edge_speed:577.1k/sec
+MAP 34s rdf_count:9.986M err_count:0.000 rdf_speed:293.5k/sec edge_count:19.97M edge_speed:587.0k/sec
+MAP 35s rdf_count:10.24M err_count:0.000 rdf_speed:292.3k/sec edge_count:20.47M edge_speed:584.6k/sec
+MAP 36s rdf_count:10.61M err_count:0.000 rdf_speed:294.6k/sec edge_count:21.22M edge_speed:589.2k/sec
+MAP 37s rdf_count:11.03M err_count:0.000 rdf_speed:297.8k/sec edge_count:22.05M edge_speed:595.7k/sec
+MAP 38s rdf_count:11.46M err_count:0.000 rdf_speed:301.4k/sec edge_count:22.92M edge_speed:602.8k/sec
+MAP 39s rdf_count:11.70M err_count:0.000 rdf_speed:299.7k/sec edge_count:23.39M edge_speed:599.4k/sec
+MAP 40s rdf_count:11.84M err_count:0.000 rdf_speed:295.7k/sec edge_count:23.68M edge_speed:591.5k/sec
+MAP 41s rdf_count:12.04M err_count:0.000 rdf_speed:293.4k/sec edge_count:24.08M edge_speed:586.8k/sec
+MAP 42s rdf_count:12.18M err_count:0.000 rdf_speed:289.7k/sec edge_count:24.35M edge_speed:579.4k/sec
+MAP 43s rdf_count:12.33M err_count:0.000 rdf_speed:286.5k/sec edge_count:24.66M edge_speed:573.1k/sec
+MAP 44s rdf_count:12.46M err_count:0.000 rdf_speed:282.9k/sec edge_count:24.91M edge_speed:565.8k/sec
+MAP 45s rdf_count:12.55M err_count:0.000 rdf_speed:278.7k/sec edge_count:25.10M edge_speed:557.4k/sec
+MAP 46s rdf_count:12.71M err_count:0.000 rdf_speed:276.0k/sec edge_count:25.41M edge_speed:552.1k/sec
+MAP 47s rdf_count:12.98M err_count:0.000 rdf_speed:276.0k/sec edge_count:25.96M edge_speed:551.9k/sec
+MAP 48s rdf_count:13.13M err_count:0.000 rdf_speed:273.3k/sec edge_count:26.25M edge_speed:546.5k/sec
+MAP 49s rdf_count:13.21M err_count:0.000 rdf_speed:269.4k/sec edge_count:26.41M edge_speed:538.7k/sec
+MAP 50s rdf_count:13.33M err_count:0.000 rdf_speed:266.5k/sec edge_count:26.67M edge_speed:533.0k/sec
+MAP 51s rdf_count:13.44M err_count:0.000 rdf_speed:263.4k/sec edge_count:26.89M edge_speed:526.9k/sec
+MAP 52s rdf_count:13.73M err_count:0.000 rdf_speed:263.8k/sec edge_count:27.45M edge_speed:527.6k/sec
+MAP 53s rdf_count:13.79M err_count:0.000 rdf_speed:260.1k/sec edge_count:27.58M edge_speed:520.1k/sec
+MAP 54s rdf_count:13.85M err_count:0.000 rdf_speed:256.3k/sec edge_count:27.69M edge_speed:512.5k/sec
+MAP 55s rdf_count:13.90M err_count:0.000 rdf_speed:252.6k/sec edge_count:27.80M edge_speed:505.1k/sec
+MAP 56s rdf_count:14.00M err_count:0.000 rdf_speed:249.9k/sec edge_count:28.01M edge_speed:499.9k/sec
+MAP 57s rdf_count:14.31M err_count:0.000 rdf_speed:250.9k/sec edge_count:28.62M edge_speed:501.7k/sec
+MAP 58s rdf_count:14.74M err_count:0.000 rdf_speed:254.1k/sec edge_count:29.49M edge_speed:508.1k/sec
+MAP 59s rdf_count:14.99M err_count:0.000 rdf_speed:253.9k/sec edge_count:29.98M edge_speed:507.8k/sec
+MAP 01m00s rdf_count:15.42M err_count:0.000 rdf_speed:256.8k/sec edge_count:30.84M edge_speed:513.6k/sec
+MAP 01m01s rdf_count:15.84M err_count:0.000 rdf_speed:259.5k/sec edge_count:31.67M edge_speed:518.9k/sec
+MAP 01m02s rdf_count:16.32M err_count:0.000 rdf_speed:263.1k/sec edge_count:32.64M edge_speed:526.2k/sec
+MAP 01m03s rdf_count:16.73M err_count:0.000 rdf_speed:265.4k/sec edge_count:33.46M edge_speed:530.8k/sec
+MAP 01m04s rdf_count:17.20M err_count:0.000 rdf_speed:268.6k/sec edge_count:34.39M edge_speed:537.1k/sec
+MAP 01m05s rdf_count:17.79M err_count:0.000 rdf_speed:273.5k/sec edge_count:35.57M edge_speed:547.0k/sec
+MAP 01m06s rdf_count:18.31M err_count:0.000 rdf_speed:277.2k/sec edge_count:36.62M edge_speed:554.5k/sec
+MAP 01m07s rdf_count:18.95M err_count:0.000 rdf_speed:282.6k/sec edge_count:37.89M edge_speed:565.3k/sec
+MAP 01m08s rdf_count:19.49M err_count:0.000 rdf_speed:286.5k/sec edge_count:38.98M edge_speed:572.9k/sec
+MAP 01m09s rdf_count:20.03M err_count:0.000 rdf_speed:290.2k/sec edge_count:40.07M edge_speed:580.4k/sec
+MAP 01m10s rdf_count:20.29M err_count:0.000 rdf_speed:289.6k/sec edge_count:40.57M edge_speed:579.2k/sec
+MAP 01m11s rdf_count:20.81M err_count:0.000 rdf_speed:292.9k/sec edge_count:41.61M edge_speed:585.8k/sec
+MAP 01m12s rdf_count:21.13M err_count:0.000 rdf_speed:293.2k/sec edge_count:42.25M edge_speed:586.4k/sec
+MAP 01m13s rdf_count:21.23M err_count:0.000 rdf_speed:290.6k/sec edge_count:42.45M edge_speed:581.2k/sec
+MAP 01m14s rdf_count:21.24M err_count:0.000 rdf_speed:286.8k/sec edge_count:42.48M edge_speed:573.7k/sec
+MAP 01m15s rdf_count:21.24M err_count:0.000 rdf_speed:283.0k/sec edge_count:42.48M edge_speed:566.0k/sec
+MAP 01m16s rdf_count:21.24M err_count:0.000 rdf_speed:279.3k/sec edge_count:42.48M edge_speed:558.6k/sec
+MAP 01m17s rdf_count:21.24M err_count:0.000 rdf_speed:275.7k/sec edge_count:42.48M edge_speed:551.3k/sec
+MAP 01m18s rdf_count:21.24M err_count:0.000 rdf_speed:272.1k/sec edge_count:42.48M edge_speed:544.3k/sec
+MAP 01m19s rdf_count:21.24M err_count:0.000 rdf_speed:268.7k/sec edge_count:42.48M edge_speed:537.4k/sec
+MAP 01m20s rdf_count:21.24M err_count:0.000 rdf_speed:265.3k/sec edge_count:42.48M edge_speed:530.7k/sec
+MAP 01m21s rdf_count:21.24M err_count:0.000 rdf_speed:262.1k/sec edge_count:42.48M edge_speed:524.1k/sec
+MAP 01m22s rdf_count:21.24M err_count:0.000 rdf_speed:258.9k/sec edge_count:42.48M edge_speed:517.7k/sec
+MAP 01m23s rdf_count:21.24M err_count:0.000 rdf_speed:255.8k/sec edge_count:42.48M edge_speed:511.5k/sec
+MAP 01m24s rdf_count:21.24M err_count:0.000 rdf_speed:252.7k/sec edge_count:42.48M edge_speed:505.4k/sec
+MAP 01m25s rdf_count:21.24M err_count:0.000 rdf_speed:249.7k/sec edge_count:42.48M edge_speed:499.5k/sec
+MAP 01m26s rdf_count:21.24M err_count:0.000 rdf_speed:246.8k/sec edge_count:42.48M edge_speed:493.6k/sec
+MAP 01m27s rdf_count:21.24M err_count:0.000 rdf_speed:244.0k/sec edge_count:42.48M edge_speed:487.9k/sec
+MAP 01m28s rdf_count:21.24M err_count:0.000 rdf_speed:241.2k/sec edge_count:42.48M edge_speed:482.4k/sec
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/001 -> Reduce tmp/shards/shard_0/001
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/000 -> Reduce tmp/shards/shard_0/000
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/004 -> Reduce tmp/shards/shard_0/004
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/003 -> Reduce tmp/shards/shard_0/003
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/002 -> Reduce tmp/shards/shard_0/002
+2018/11/04 23:26:01 merge_shards.go:36: Shard tmp/shards/005 -> Reduce tmp/shards/shard_0/005
+2018/11/04 23:26:01 Replaying from value pointer: {Fid:0 Len:0 Offset:0}
+2018/11/04 23:26:01 Iterating file id: 0
+2018/11/04 23:26:01 Iteration took: 45.334µs
+REDUCE 01m29s [1.31%] edge_count:557.3k edge_speed:557.3k/sec plist_count:91.29k plist_speed:91.29k/sec
+REDUCE 01m30s [6.10%] edge_count:2.590M edge_speed:2.589M/sec plist_count:432.5k plist_speed:432.4k/sec
+REDUCE 01m31s [10.32%] edge_count:4.382M edge_speed:2.190M/sec plist_count:734.1k plist_speed:366.9k/sec
+REDUCE 01m32s [13.07%] edge_count:5.553M edge_speed:1.850M/sec plist_count:929.0k plist_speed:309.5k/sec
+REDUCE 01m33s [17.20%] edge_count:7.306M edge_speed:1.826M/sec plist_count:1.223M plist_speed:305.7k/sec
+REDUCE 01m34s [21.32%] edge_count:9.056M edge_speed:1.810M/sec plist_count:1.518M plist_speed:303.4k/sec
+REDUCE 01m35s [25.42%] edge_count:10.80M edge_speed:1.799M/sec plist_count:1.801M plist_speed:300.0k/sec
+REDUCE 01m36s [29.95%] edge_count:12.72M edge_speed:1.817M/sec plist_count:2.121M plist_speed:302.8k/sec
+REDUCE 01m37s [33.98%] edge_count:14.44M edge_speed:1.804M/sec plist_count:2.404M plist_speed:300.4k/sec
+REDUCE 01m38s [37.64%] edge_count:15.99M edge_speed:1.776M/sec plist_count:2.645M plist_speed:293.8k/sec
+REDUCE 01m39s [41.94%] edge_count:17.81M edge_speed:1.781M/sec plist_count:2.948M plist_speed:294.7k/sec
+REDUCE 01m40s [45.73%] edge_count:19.42M edge_speed:1.765M/sec plist_count:3.214M plist_speed:292.1k/sec
+REDUCE 01m41s [49.72%] edge_count:21.12M edge_speed:1.759M/sec plist_count:3.493M plist_speed:291.0k/sec
+REDUCE 01m42s [52.39%] edge_count:22.25M edge_speed:1.711M/sec plist_count:3.852M plist_speed:296.2k/sec
+REDUCE 01m43s [55.08%] edge_count:23.40M edge_speed:1.671M/sec plist_count:4.342M plist_speed:310.0k/sec
+REDUCE 01m44s [56.96%] edge_count:24.20M edge_speed:1.612M/sec plist_count:4.762M plist_speed:317.3k/sec
+REDUCE 01m45s [58.54%] edge_count:24.87M edge_speed:1.554M/sec plist_count:5.106M plist_speed:319.0k/sec
+REDUCE 01m46s [60.31%] edge_count:25.62M edge_speed:1.506M/sec plist_count:5.489M plist_speed:322.7k/sec
+REDUCE 01m47s [62.56%] edge_count:26.57M edge_speed:1.476M/sec plist_count:5.976M plist_speed:331.8k/sec
+REDUCE 01m48s [64.34%] edge_count:27.33M edge_speed:1.438M/sec plist_count:6.363M plist_speed:334.8k/sec
+REDUCE 01m49s [65.97%] edge_count:28.03M edge_speed:1.401M/sec plist_count:6.844M plist_speed:342.1k/sec
+REDUCE 01m50s [67.04%] edge_count:28.48M edge_speed:1.356M/sec plist_count:7.268M plist_speed:345.9k/sec
+REDUCE 01m51s [68.08%] edge_count:28.92M edge_speed:1.314M/sec plist_count:7.683M plist_speed:349.1k/sec
+REDUCE 01m52s [69.39%] edge_count:29.48M edge_speed:1.281M/sec plist_count:8.205M plist_speed:356.6k/sec
+REDUCE 01m53s [70.57%] edge_count:29.98M edge_speed:1.249M/sec plist_count:8.674M plist_speed:361.3k/sec
+REDUCE 01m54s [71.75%] edge_count:30.48M edge_speed:1.219M/sec plist_count:9.144M plist_speed:365.6k/sec
+REDUCE 01m55s [73.04%] edge_count:31.03M edge_speed:1.193M/sec plist_count:9.656M plist_speed:371.2k/sec
+REDUCE 01m56s [74.34%] edge_count:31.58M edge_speed:1.169M/sec plist_count:10.17M plist_speed:376.4k/sec
+REDUCE 01m57s [75.75%] edge_count:32.18M edge_speed:1.149M/sec plist_count:10.58M plist_speed:377.5k/sec
+REDUCE 01m58s [79.86%] edge_count:33.93M edge_speed:1.169M/sec plist_count:11.02M plist_speed:379.8k/sec
+REDUCE 01m59s [82.00%] edge_count:34.84M edge_speed:1.161M/sec plist_count:11.50M plist_speed:383.3k/sec
+REDUCE 02m00s [83.22%] edge_count:35.35M edge_speed:1.140M/sec plist_count:12.02M plist_speed:387.6k/sec
+REDUCE 02m01s [84.36%] edge_count:35.83M edge_speed:1.119M/sec plist_count:12.50M plist_speed:390.6k/sec
+REDUCE 02m02s [85.66%] edge_count:36.39M edge_speed:1.102M/sec plist_count:13.05M plist_speed:395.2k/sec
+REDUCE 02m03s [86.86%] edge_count:36.90M edge_speed:1.085M/sec plist_count:13.56M plist_speed:398.5k/sec
+REDUCE 02m04s [88.03%] edge_count:37.40M edge_speed:1.068M/sec plist_count:14.06M plist_speed:401.4k/sec
+REDUCE 02m05s [89.21%] edge_count:37.90M edge_speed:1.052M/sec plist_count:14.49M plist_speed:402.3k/sec
+REDUCE 02m06s [91.22%] edge_count:38.75M edge_speed:1.047M/sec plist_count:15.01M plist_speed:405.4k/sec
+REDUCE 02m07s [91.94%] edge_count:39.05M edge_speed:1.027M/sec plist_count:15.31M plist_speed:402.7k/sec
+REDUCE 02m08s [93.25%] edge_count:39.61M edge_speed:1.015M/sec plist_count:15.74M plist_speed:403.4k/sec
+REDUCE 02m09s [95.24%] edge_count:40.46M edge_speed:1.011M/sec plist_count:16.17M plist_speed:404.0k/sec
+REDUCE 02m10s [96.30%] edge_count:40.91M edge_speed:997.4k/sec plist_count:16.56M plist_speed:403.8k/sec
+REDUCE 02m11s [97.48%] edge_count:41.41M edge_speed:985.6k/sec plist_count:17.04M plist_speed:405.6k/sec
+REDUCE 02m12s [99.61%] edge_count:42.31M edge_speed:983.6k/sec plist_count:17.41M plist_speed:404.6k/sec
+REDUCE 02m13s [100.00%] edge_count:42.48M edge_speed:965.1k/sec plist_count:17.41M plist_speed:395.6k/sec
+REDUCE 02m14s [100.00%] edge_count:42.48M edge_speed:943.6k/sec plist_count:17.41M plist_speed:386.8k/sec
+REDUCE 02m15s [100.00%] edge_count:42.48M edge_speed:923.1k/sec plist_count:17.41M plist_speed:378.4k/sec
+REDUCE 02m16s [100.00%] edge_count:42.48M edge_speed:903.5k/sec plist_count:17.41M plist_speed:370.4k/sec
+REDUCE 02m17s [100.00%] edge_count:42.48M edge_speed:884.6k/sec plist_count:17.41M plist_speed:362.7k/sec
+REDUCE 02m18s [100.00%] edge_count:42.48M edge_speed:866.6k/sec plist_count:17.41M plist_speed:355.3k/sec
+REDUCE 02m18s [100.00%] edge_count:42.48M edge_speed:864.5k/sec plist_count:17.41M plist_speed:354.4k/sec
+Total: 02m18s
