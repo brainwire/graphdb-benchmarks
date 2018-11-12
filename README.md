@@ -1,35 +1,52 @@
 # graphdb-benchmarks
-Benchmark tests for various graph databases based on [ankurayadav's work](https://github.com/ankurayadav/graphdb-benchmarks)
-
+Benchmark tests for various graph databases 
 **Note :** Please ensure you have [Git LFS](https://git-lfs.github.com/) installed, before you clone this repository.
 
-**Note :** These results are a bit outdated, I am working on new results.
+
 
 # Installation
-## DGraph 
-Simply copy and paste their command line installer 
-```
-curl https://get.dgraph.io -sSf | bash
-```
+## Versions
+Dgraph: v1.0.9
 
+Cayley: v0.7.4
+
+Neo4J: v3.4.9
+
+## Dataset
+We are using this dataset [this](https://github.com/dgraph-io/benchmarks/tree/master/data/neo4j) which is a subset of this dataset [link](https://github.com/dgraph-io/benchmarks/tree/master/data)
 ## Loading
-#### Loading 30kmoviedata dataset
-
-| DGraph        | Cayley        |
-| ------------- |:-------------:|
-| 4.745s        | 30.035s       |
 
 
-#### Loading 21million.rdf.gz dataset
+#### Loading dataset
 
-| DGraph        | Cayley        |
-| ------------- |:-------------:|
-| 879.913s      | 8527.427s     |
+| DGraph | Cayley |
+| ------ | ------ |
+| ------ | ---    |
 
-## Querying
 
-#### Query to find all movies and their genre which are directed by director "Steven Spielberg".
+## Querying (Based on Dgraph benchmarks [here](https://blog.dgraph.io/post/benchmark-neo4j/))
+| ID    | DETAIL        |
+| ------|:-------------:|
+|SQ     | Get all films and genres of films directed by Steven Spielberg.|
+|GS1Q	|Search for directors with name Steven Spielberg and get their films sorted by release date.|
+|GS2Q	|Search for directors with name Steven Spielberg and only their films released after 1984-08 sorted by release date.|
+|GS3Q	|Search for directors with name Steven Spielberg and only their movies released between 1984-08 and 2000 sorted by release date.|
 
-| DGraph        | Cayley        |
-| ------------- |:-------------:|
-| 2.067s        | 1.376s        |
+
+#### SQ
+
+| DGraph  | Cayley | Neo4J  |
+| ------- | ------ | ------ |
+| ------- | ------ | ------ |
+#### GS1Q
+| DGraph  | Cayley | Neo4J  |
+| ------- | ------ | ------ |
+| ------- | ------ | ------ |
+#### GS2Q
+| DGraph  | Cayley | Neo4J  |
+| ------- | ------ | ------ |
+| ------- | ------ | ------ |
+#### GS3Q
+| DGraph  | Cayley | Neo4J  |
+| ------- | ------ | ------ |
+| ------- | ------ | ------ |

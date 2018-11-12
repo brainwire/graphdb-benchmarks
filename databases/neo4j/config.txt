@@ -1,0 +1,2 @@
+dbms.active_database=film.db
+dbms.security.auth_enabled=false
